@@ -2,34 +2,17 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import time
-import speech_recognition as sr;
 import os
-import subprocess
 import screen_brightness_control as sbc
-import pprint
 from playsound import playsound
-from pprint import pprint
 from gtts import gTTS
-from googletrans import Translator, constants
-from pydub import AudioSegment
-from pydub.silence import split_on_silence
 import webbrowser
-import datetime 
 import wikipedia
-import requests
-from selenium import webdriver # to control browser operations
-from bs4 import BeautifulSoup
-import win32gui, win32con
-import os
-import math
-import numpy as np
 import pandas as pd 
 import random
 import pyautogui
-import pywhatkit
 import PyPDF2
 import docx;
-import pywintypes
 
 #==================================================================
 
