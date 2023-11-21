@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import time
-import pyttsx3;
 import speech_recognition as sr;
 import os
 import subprocess
@@ -11,7 +10,6 @@ import pprint
 from playsound import playsound
 from pprint import pprint
 from gtts import gTTS
-import pyttsx3;
 from googletrans import Translator, constants
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
@@ -40,19 +38,7 @@ z="sir"
 num=1
 
 def voice(txt):
-    engine = pyttsx3.init();
-    # Set Rate / speed
-    engine.setProperty('rate', 150)
-    #voices = engine.getProperty('voices')
-    # setter method .[0]=male voice and
-    # [1]=female voice in set Property.
-    #engine.setProperty('voice', voices[sv].id)
-    
-    # Set Volume
-    engine.setProperty('volume', 5.0)
-    engine.say(txt);
-    engine.runAndWait() ;
-
+    print("hi")
 numwe = 1
 numwe2=1
 def tvoice2(output):
